@@ -19,7 +19,7 @@ import {Http, HTTP_PROVIDERS, Headers, RequestOptionsArgs} from 'angular2/http';
 	],
     template: `
     <div *ngIf="profilInfo">
-	    <div style="width:100%;display:table; padding-top:20px">
+	    <div style="width:100%;display:table; padding-top:15%">
 		    <div style="display:table-cell">
 				<div style="width:100%;display:table">
 					<div style="display:table-cell;" class="centerdiv">
@@ -125,7 +125,7 @@ public profilInfo: Object[];
     var head = new Headers();
     head.append('Authorization', 'Bearer ' + localStorage.getItem('id_token'));
 
-    this.http.get('http://localhost/student/profile/' + str, { headers: head })
+    this.http.get('http://localhost/student/profile', { headers: head })
       .map(res => res.json())
     .subscribe(res => { this.profilInfo = res; console.log(this.profilInfo); },
     err=> {
