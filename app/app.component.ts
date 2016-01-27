@@ -12,7 +12,7 @@ import {SignIn} from "./SignIn/signin.component";
     selector: 'my-app',
     template: `
     <header-bar></header-bar>
-    <div class ="Container" style="padding-top:50px">
+    <div class ="Container" style="padding-top:50px;width:100%">
     	<router-outlet></router-outlet>
     </div>
     `,

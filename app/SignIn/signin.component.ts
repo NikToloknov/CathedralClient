@@ -6,7 +6,7 @@ import 'rxjs/add/operator/map';
 @Component({
     selector: 'my-signin', viewProviders: [HTTP_PROVIDERS],
     template: `
-    <div style = "width:30%; margin:30%;">
+    <div style = "width:30%; margin-left:35%; margin-top:10%">
     <form class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
