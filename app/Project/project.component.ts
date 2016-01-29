@@ -8,9 +8,20 @@ import {StageComponent} from './Stage/stage.component'
     selector: 'my-project',
     template: `
     <h1>Project page</h1>  
+    <div class="col-md-4">
+		<ul class="nav nav-pills nav-stacked">
+            <li class="active"><a [routerLink]="['Stage']">Этапы</a></li>
+            <li><a href="#description">Описание</a></li>
+            <li><a href="#git">Git</a></li>
+            <li><a href="#files">Файлы</a></li>
+            <li><a href="#comment">Комментарии</a></li>
+          </ul>
+    </div>
+    <div class="col-md-8">
     <my-stage></my-stage>  
-    <div class ="Container" style="padding-top:250px;width:100%">
+    <div class ="Container" style="width:100%">
     	<router-outlet></router-outlet>
+    </div>
     </div>
     `,    
     directives: [ROUTER_DIRECTIVES]
