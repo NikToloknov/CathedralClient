@@ -4,6 +4,4 @@ export interface Subject
 	lesson: string;
 	date: number;
 	teacher: string;
-	
-
 }

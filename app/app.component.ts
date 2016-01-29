@@ -33,15 +33,14 @@ import {SubjectComponent} from "./Project/subject.component";
 		},
 		{ path: '/signin', name: 'SignIn', component: SignIn, useAsDefault: false },
 		{ path: '/allproject', name: 'AllProject', component: AllProject, useAsDefault: false },
-		{ path: '/project/:id', name: 'Project', component: Project, useAsDefault: false },
+		{ path: '...', name: 'Project', component: Project, useAsDefault: false },
 		{ path: '/subject', name: 'Subject', component: SubjectComponent, useAsDefault: false }
 ])
 
 
 export class AppComponent {
 	
-	public selectedSub: Subject;
-	onSelect(subject: Subject) { this.selectedSub = subject; }
+	
 
 }
 

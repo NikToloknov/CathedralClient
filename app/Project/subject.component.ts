@@ -8,17 +8,17 @@ import {Subject} from "./subject";
     selector: 'my-subject',
     template: `
     <h1>Subject page</h1>
-<div class="col-md-6">
-	<ul>
-      <li class="panel panel-primary" *ngFor="#sub of subs"  (click) = "onSelect(sub)">
-      	<span>Name: </span>{{sub.name}}
-		<div><label>lesson: </label>{{sub.lesson}}</div>
-      	<div><label>TYT ESCHO DOLJNA BIT DATA NO YA NE ZNAYU KAKOY TIP DANNIH </label>{{sub.date}}</div>
-      	<div><label>Teacher: </label>  {{sub.teacher}}</div>
-        
-      </li>
-    </ul>
-</div>
+	<div class="col-md-6">
+		<ul>
+	      <li class="panel panel-primary" *ngFor="#sub of subs"  (click) = "onSelect(sub)">
+	      	<span>Name: </span>{{sub.name}}
+			<div><label>lesson: </label>{{sub.lesson}}</div>
+	      	<div><label>TYT ESCHO DOLJNA BIT DATA NO YA NE ZNAYU KAKOY TIP DANNIH </label>{{sub.date}}</div>
+	      	<div><label>Teacher: </label>  {{sub.teacher}}</div>
+	        
+	      </li>
+	    </ul>
+	</div>
     <div class="col-md-6 panel panel-primary" *ngIf=subject>
 		
       	<div>{{subject.date}}</div>
@@ -26,8 +26,7 @@ import {Subject} from "./subject";
     </div>
 
     
-    `,
-    
+    `,    
     directives: [RouterLink]
 })
 export class SubjectComponent {
