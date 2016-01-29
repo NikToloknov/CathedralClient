@@ -7,7 +7,10 @@ import {RouteConfig, Router, Route, Redirect, ROUTER_DIRECTIVES, ROUTER_PROVIDER
     selector: 'my-project',
     template: `
     <h1>Project page</h1>
+    
     `,
     directives: [RouterLink]
 })
-export class Project { }
+export class Project { 
+
+}

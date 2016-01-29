@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
 import {RouteConfig, Router, Route, Redirect, ROUTER_DIRECTIVES, ROUTER_PROVIDERS, RouterLink, RouterOutlet, RouteParams} from 'angular2/router';
-import {Http, HTTP_PROVIDERS, Headers, RequestOptionsArgs} from 'angular2/http';
 import 'rxjs/add/operator/map';
+import {Http, HTTP_PROVIDERS, Headers, RequestOptionsArgs} from 'angular2/http';
 
 @Component({
     selector: 'my-signin', viewProviders: [HTTP_PROVIDERS],

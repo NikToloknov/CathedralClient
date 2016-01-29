@@ -7,6 +7,7 @@ import {AllProject} from "./AllProject/allproject.component";
 import {Profile} from "./Profile/profile.component";
 import {Project} from "./Project/project.component";
 import {SignIn} from "./SignIn/signin.component";
+import {SubjectComponent} from "./Project/subject.component";
 
 @Component({
     selector: 'my-app',
@@ -29,7 +30,8 @@ import {SignIn} from "./SignIn/signin.component";
 		},
 		{ path: '/signin', name: 'SignIn', component: SignIn, useAsDefault: false },
 		{ path: '/allproject', name: 'AllProject', component: AllProject, useAsDefault: false },
-		{ path: '/project/:id', name: 'Project', component: Project, useAsDefault: false }
+		{ path: '/project/:id', name: 'Project', component: Project, useAsDefault: false },
+		{ path: '/subject', name: 'Subject', component: SubjectComponent, useAsDefault: false }
 ])
 
 
