@@ -22,8 +22,6 @@ import {RouteConfig, Router, Route, Redirect, ROUTER_DIRECTIVES, ROUTER_PROVIDER
             <li><a href="#contact">Предметы</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
             <li class="active"><a [routerLink]="['SignIn']">Войти<span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
