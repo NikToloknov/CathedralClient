@@ -19,13 +19,15 @@ import {RouteConfig, Router, Route, Redirect, ROUTER_DIRECTIVES, ROUTER_PROVIDER
           <ul class="nav navbar-nav">
             <li class="active"><a [routerLink]="['Profile']">Профиль</a></li>
             <li><a [routerLink]="['AllProject']">Проекты</a></li>
+<<<<<<< HEAD
             <li><a [routerLink]="['Project']">Проект</a></li>
             <li><a [routerLink]="['Subject']">Выбор тем</a></li>
+=======
+            <li><a [routerLink]="['Subject']">Темы</a></li>
+>>>>>>> 7a05e49519ad7c6bd52809f7799a15d87887e16c
             <li><a href="#contact">Предметы</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
             <li class="active"><a [routerLink]="['SignIn']">Войти<span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->

@@ -7,6 +7,7 @@ import {StageComponent} from './Stage/stage.component'
 @Component({
     selector: 'my-project',
     template: `
+<<<<<<< HEAD
     <h1>Project page</h1>  
     <div class="col-md-4">
 		<ul class="nav nav-pills nav-stacked">
@@ -39,3 +40,13 @@ import {StageComponent} from './Stage/stage.component'
 
 
 export class Project { }
+=======
+    <h1>Project page</h1>
+    
+    `,
+    directives: [RouterLink]
+})
+export class Project { 
+
+}
+>>>>>>> 7a05e49519ad7c6bd52809f7799a15d87887e16c

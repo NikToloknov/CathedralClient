@@ -7,6 +7,7 @@ import {AllProject} from "./AllProject/allproject.component";
 import {Profile} from "./Profile/profile.component";
 import {Project} from "./Project/project.component";
 import {SignIn} from "./SignIn/signin.component";
+import {SubjectComponent} from "./Project/subject.component";
 
 import {Subject} from "./Project/subject";
 import {SubjectComponent} from "./Project/subject.component";
@@ -33,7 +34,11 @@ import {SubjectComponent} from "./Project/subject.component";
 		},
 		{ path: '/signin', name: 'SignIn', component: SignIn, useAsDefault: false },
 		{ path: '/allproject', name: 'AllProject', component: AllProject, useAsDefault: false },
+<<<<<<< HEAD
 		{ path: '...', name: 'Project', component: Project, useAsDefault: false },
+=======
+		{ path: '/project/:id', name: 'Project', component: Project, useAsDefault: false },
+>>>>>>> 7a05e49519ad7c6bd52809f7799a15d87887e16c
 		{ path: '/subject', name: 'Subject', component: SubjectComponent, useAsDefault: false }
 ])
 
